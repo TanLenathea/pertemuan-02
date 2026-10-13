@@ -44,7 +44,7 @@ class Mahasiswa
 
     public function predikat(): string
     {
-        // Batas IPK merupakan asumsi latihan; sesuaikan dengan ketentuan dosen.
+
         if ($this->ipk >= 3.51) {
             return 'Cumlaude';
         }
