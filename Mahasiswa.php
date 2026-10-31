@@ -45,15 +45,15 @@ class Mahasiswa
     public function predikat(): string
     {
 
-        if ($this->ipk >= 3.51) {
+        if ($this->ipk >= 3.80) {
             return 'Cumlaude';
         }
 
-        if ($this->ipk >= 3.01) {
+        if ($this->ipk >= 3.20) {
             return 'Sangat Memuaskan';
         }
 
-        if ($this->ipk >= 2.76) {
+        if ($this->ipk >= 2.90) {
             return 'Memuaskan';
         }
 
